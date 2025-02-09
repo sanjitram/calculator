@@ -1,4 +1,5 @@
-#include <stdio.h>
+#include <bits/stdc++.h>
+using namespace std;
 
 int add(int i, int j) {
     return (i + j);
@@ -15,9 +16,9 @@ int multiply(int i, int j) {
 float divide(int i, int j) {
     if (j == 0) {
         printf("Error: Division by zero is not allowed.\n");
-        return 0; // Return 0 to indicate an error.
+        return 0; 
     }
-    return ((float) i / j);  // Explicit type casting to float for decimal results.
+    return ((float) i / j);  
 }
 
 int main() {
